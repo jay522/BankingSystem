@@ -1,0 +1,123 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+<!----Navbar--->
+
+.col-sm-12.col-md.img.text-center.py-2 img {
+    width: 200px;
+    height: 200px;
+}
+
+.row.intro.py-5 {
+	background: rgb(34,193,195);
+  background: linear-gradient(90deg, rgba(4,0,36,1) 0%, rgba(35,84,221,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(233,121,243,1) 0%, rgba(105,238,241,1) 41%, rgba(232,104,248,1) 75%, rgba(150,233,251,1) 100%, rgba(67,216,247,1) 100%);}
+.container {
+    color: #fafafa;
+}
+.action{
+	text-align: center;
+  background-color: #dafffd;
+}
+
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center;
+    padding-bottom: 63px;
+}
+.border{
+  background-color: #dafffd;
+  border-radius: 10px;
+  margin: 2px;
+}
+img.img-fluid.zoom {
+    height: 150px;
+	max-width: 100%;
+	padding-bottom: 3px;
+    margin-bottom: 31px;
+}
+
+.zoom {
+    transition: transform 5s;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(0.9); 
+    -webkit-transform: scale(0.9);
+    transform: scale(0.8); 
+  }
+
+footer{
+	width: 100%;
+	
+}
+.footer{
+  background: rgb(34,193,195);
+}
+
+@media (max-width:767px) {
+  .footer .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+
+.footer .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer .item.social > a:hover {
+  opacity: 0.6;
+  color: #ffc107;
+  background-color: rgb(23 26 26);
+}
+.footer .copyright {
+  text-align:center;
+  padding-top:10px;
+  padding-bottom: 3px;
+  font-size:15px;
+  margin-bottom:0;
+}
+.text-center p a {
+  color: white;
+  text-decoration: none;
+}
+.text-center p a:hover {
+  cursor: pointer;
+  color: #f5f245;
+}
+.co{background: rgb(34,193,195);
+color: #fff;}
+
+.slider{
+  height: 200px;
+  width: 290px;
+  margin: auto;
+}
